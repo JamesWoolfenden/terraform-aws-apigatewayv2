@@ -1,6 +1,6 @@
 # terraform-aws-apigatewayv2
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-apigatewayv2/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-apigatewayv2)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-apigatewayv2/workflows/Verify/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-apigatewayv2)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-apigatewayv2.svg)](https://github.com/JamesWoolfenden/terraform-aws-apigatewayv2/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-aws-apigatewayv2.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-aws-apigatewayv2/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
