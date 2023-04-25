@@ -7,4 +7,3 @@ resource "aws_apigatewayv2_stage" "pike" {
   }
   client_certificate_id = aws_api_gateway_client_certificate.pike.id
 }
-

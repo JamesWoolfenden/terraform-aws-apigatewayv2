@@ -3,4 +3,3 @@ resource "aws_apigatewayv2_route" "pike" {
   route_key          = "$default"
   authorization_type = var.authorization_type
 }
-
