@@ -1,5 +1,5 @@
 module "apiv2" {
-  source = "../../"
+  source     = "../../"
   kms_key_id = aws_kms_key.pike.arn
 }
 
