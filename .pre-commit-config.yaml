@@ -59,12 +59,8 @@ repos:
       - id: semgrep
         # See semgrep.dev/rulesets to select a ruleset and copy its URL
         args: ['--config', 'auto']
-  - repo: https://github.com/aquasecurity/tfsec
-    rev: b692c20b68c0121346b7b34e81d6b1867ca8e1a8 # v1.28.14
+  - repo: https://github.com/jameswoolfenden/ghat
+    rev: 8a3dc5a05f4edea6b4dc52ef9dc423a0f965de68 # v0.1.25
     hooks:
-      - id: tfsec
-        name: TFSec
-        description: TFsec is a tool to statically analyze Terraform templates to spot potential security issues.
-        language: golang
-        entry: tfsec --include-passed
-        pass_filenames: false
+      - id: ghat-go
+      - id: ghat-go-sift
