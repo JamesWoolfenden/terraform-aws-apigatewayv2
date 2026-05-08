@@ -54,13 +54,13 @@ repos:
     hooks:
       - id: actionlint
   - repo: https://github.com/returntocorp/semgrep
-    rev: 34b079df03bd8ed6860552adf3905cc5d146dc4d # v1.161.0
+    rev: f353aa49931e4f3f65c3023b473700067808131c # v1.162.0
     hooks:
       - id: semgrep
         # See semgrep.dev/rulesets to select a ruleset and copy its URL
         args: ['--config', 'auto']
   - repo: https://github.com/jameswoolfenden/ghat
-    rev: a386050ae690ce55f567aaf177fa0516427f014a # v0.1.28
+    rev: e60f56cec93d64866fa82cf6511ce7c0cd92bb20 # v0.1.29
     hooks:
       - id: ghat-go
       - id: ghat-go-sift
